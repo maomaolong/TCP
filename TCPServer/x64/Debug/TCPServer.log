@@ -1,0 +1,23 @@
+﻿生成启动时间为 2015/3/2 18:33:26。
+     1>项目“F:\chenglong\GitHub\maomaolong\TCPServer\TCPServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\chenglong\ProgramFiles\VS2013\VC\bin\x86_amd64\CL.exe /c /I"F:\Program Files\boost_1_57_0" /I"C:\Program Files\MySQL\MySQL Connector C++ 1.1.5\include" /I"C:\Program Files\MySQL\MySQL Server 5.6\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt TMysql.cpp
+         TMysql.cpp
+     1>c:\program files\mysql\mysql connector c++ 1.1.5\include\cppconn\sqlstring.h(39): warning C4251: “sql::SQLString::realStr”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“sql::SQLString”的客户端使用
+     1>c:\program files\mysql\mysql connector c++ 1.1.5\include\cppconn\exception.h(61): warning C4251: “sql::SQLException::sql_state”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“sql::SQLException”的客户端使用
+     1>c:\program files\mysql\mysql connector c++ 1.1.5\include\cppconn\exception.h(145): warning C4251: “sql::SQLUnsupportedOptionException::option”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“sql::SQLUnsupportedOptionException”的客户端使用
+     1>C:\Program Files\MySQL\MySQL Connector C++ 1.1.5\include\mysql_driver.h(52): warning C4251: “sql::mysql::MySQL_Driver::proxy”: class“boost::scoped_ptr<sql::mysql::NativeAPI::NativeDriverWrapper>”需要有 dll 接口由 class“sql::mysql::MySQL_Driver”的客户端使用
+     1>C:\Program Files\MySQL\MySQL Connector C++ 1.1.5\include\mysql_connection.h(175): warning C4251: “sql::mysql::MySQL_Connection::proxy”: class“boost::shared_ptr<sql::mysql::NativeAPI::NativeConnectionWrapper>”需要有 dll 接口由 class“sql::mysql::MySQL_Connection”的客户端使用
+     1>C:\Program Files\MySQL\MySQL Connector C++ 1.1.5\include\mysql_connection.h(179): warning C4251: “sql::mysql::MySQL_Connection::service”: class“boost::scoped_ptr<sql::mysql::MySQL_Statement>”需要有 dll 接口由 class“sql::mysql::MySQL_Connection”的客户端使用
+       Link:
+         F:\chenglong\ProgramFiles\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\chenglong\GitHub\maomaolong\TCPServer\x64\Debug\TCPServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\MySQL\MySQL Connector C++ 1.1.5\lib\opt" /LIBPATH:"C:\Program Files\MySQL\MySQL Server 5.6\lib" ws2_32.lib libmysql.lib mysqlclient.lib mysqlcppconn.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\chenglong\GitHub\maomaolong\TCPServer\x64\Debug\TCPServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\chenglong\GitHub\maomaolong\TCPServer\x64\Debug\TCPServer.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\person.pb.obj
+         x64\Debug\TMysql.obj
+         x64\Debug\TProtobuf.obj
+         x64\Debug\TSocket.obj
+         TCPServer.vcxproj -> F:\chenglong\GitHub\maomaolong\TCPServer\x64\Debug\TCPServer.exe
+     1>已完成生成项目“F:\chenglong\GitHub\maomaolong\TCPServer\TCPServer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.89
